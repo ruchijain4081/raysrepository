@@ -2,23 +2,25 @@ package com.rays.basics;
 
 public class SwitchCase {
 	public static void main(String[] args) {
-		int s=2;
+		String s= "jan";
 		switch(s) {
-		case 1:
+		case "march":
 			System.out.println("hi ruchi");
 			break;
-		case 2:
+		case "feb":
 			System.out.println("hi rohan");
 		break;
-		case 3:
+		case "jan":
 			System.out.println("hi nikita");
 			break;
-		case 4:
+		case "nov":
 			System.out.println("hi palak");
 			break;
-		case 5:
+		case "oct":
 			System.out.println("hi pooja");
 			break;
+			default :
+				System.out.println("no is not match");
 		}
 	}
 

@@ -24,16 +24,18 @@ public int getSpeed() {
 	return speed;
 }
 public void breakk(int speed) { 
-	if (speed>80) {
-		System.err.println("warning: slow down your speed");
+	while (speed==0) {
+		speed=speed-10;	
 	}
+	System.err.println("stoped ");
 }
 public void changeGear() {
 	System.out.println("change gear after every 20 kilometers");
 }
 public void accelerator(int speed) {
-	if (speed<30) {
-		System.out.println("press accelerator to speedup");
+	if (speed!=0) {
+		speed+=10;
+		System.out.println("press accelerator to speedup "+"your speed now :"+speed);
 	}
 }
 }

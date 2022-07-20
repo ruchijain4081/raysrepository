@@ -13,7 +13,7 @@ public class MethodWithArrayParameter {
 				y=x;
 			}
 			else {
-				if(y>x&&y<num[i]) {
+				if(y>x && y<num[i]) {
 					x=y;
 					y=num[i];
 				}

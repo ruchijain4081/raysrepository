@@ -1,4 +1,4 @@
-package com.rays.oop;
+package com.rays.exceptionsss;
 
 public class TestAccount {
 public static void main(String[] args) {
@@ -16,9 +16,8 @@ public static void main(String[] args) {
 	a.deposit(40000);
 	System.out.println("your current balance is :"+a.getBalance());
 	
-	a.withdrawal(10000);
+	a.withdrawal(40000);
 	System.out.println("your current balance is :"+a.getBalance());
-	a.fundTransfer("778960", 1500);
-     System.out.println("your current balance is :"+a.getBalance());
+
 }
 }
